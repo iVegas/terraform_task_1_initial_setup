@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "rg-terraform-task1-initial-setup"
+  name     = "ivegas-terraform-resources"
   location = "West Europe"
 }
 
